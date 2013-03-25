@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  filename: MyString
+  md5: MyString
+  taken_at: 2012-08-10
+
+two:
+  filename: MyString
+  md5: MyString
+  taken_at: 2012-08-10

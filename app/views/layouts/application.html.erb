@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> IMRollin - <%= get_locale_title %> </title>
+  <%= stylesheet_link_tag "style" %>
+  <%= javascript_include_tag "jquery.min" %>
+  <%= javascript_include_tag "interface.js" %>
+
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="mainbody">
+
+            <div id="content">
+
+            <div id="leftsidebar">
+                <div id="categories">
+                    <h2>Categorias</h2>
+                    <div id="all-categories">
+                    </div>
+                </div>
+
+                <div id="show-all">
+                <h3><a href="/">Todas fotos</a></h3>
+                </div>
+            </div>
+
+            <%= yield %>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

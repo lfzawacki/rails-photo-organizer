@@ -1,0 +1,23 @@
+<div id="image-section">
+
+  <% if @category %>
+  <div id="category-title">
+    Mostando imagens de '<%= @category %>'
+  </div>
+  <% end %>
+
+  <% @images.each do |img| %>
+
+    <%= link_to image_tag(img.url_small, :value => img.id), img,
+        :class => 'image-box', :title => img.md5 %>
+  <% end %>
+</div>
+
+<div id="interface">
+
+    <div id="image-control">
+        <%= link_to '<- Anterior', url_for(:page => @previous), :id => 'image-previous' if @previous %>
+        <%= link_to 'Próxima ->', url_for(:page => @next), :id => 'image-next' if @next %>
+    </div>
+
+</div>

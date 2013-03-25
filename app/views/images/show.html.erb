@@ -1,0 +1,36 @@
+<div id="image-section">
+    <%= link_to image_tag(@image.url_medium, :id => 'image-show', :value => @image.id), @image.url_original %>
+</div>
+
+<div id="image-data">
+    <p>
+      <b>Arquivo:</b>
+      <%= link_to truncate(@image.url_original, :length => 30), @image.url_original %>
+    </p>
+
+    <p>
+      <b>Tirada em:</b>
+      <%= @image.formated_date %>
+    </p>
+</div>
+
+</br>
+<strong> Esta foto pertence às seguintes categorias: </strong>
+
+<div id="image-categories">
+</div>
+
+<div id="interface">
+
+    <div id="image-control">
+        <%= link_to '<- Anterior', @previous, :id => 'image-previous' if @previous %>
+        <%= link_to 'Próxima ->', @next, :id => 'image-next' if @next %>
+    </div>
+
+    <div id="add-category">
+        <strong>Nova categoria:</strong>
+            <input id="new-category" type="text">
+            <a href="#"> Adicione! </a>
+    </div>
+</div>
+
