@@ -38,12 +38,12 @@ helping you set up the system on a real server.
 
 ### Photo gallery
 
-![photos](http://dl.dropbox.com/u/2701879/uploads/rails-photo-organizer/photos.png)
+![photos](https://github.com/lfzawacki/rails-photo-organizer/blob/gh-pages/photos.png?raw=true)
 
 ### Photo interface and tagging
 
-![tagging](http://dl.dropbox.com/u/2701879/uploads/rails-photo-organizer/photo.png)
+![tagging](https://github.com/lfzawacki/rails-photo-organizer/blob/gh-pages/photo.png?raw=true)
 
 ### Search by tags
 
-![search](http://dl.dropbox.com/u/2701879/uploads/rails-photo-organizer/category.png)
+![search](https://github.com/lfzawacki/rails-photo-organizer/blob/gh-pages/category.png?raw=true)
