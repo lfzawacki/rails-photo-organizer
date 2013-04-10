@@ -13,7 +13,7 @@ Scroll down to see some screenshots of it in action...
 
 ## How to set it up
 
- * You have to have Ruby and Rails installed. See [here](www.ruby-lang.org/downloads/) for details.
+ * You have to have Ruby and Rails installed. See [here](http://rvm.io/) for details.
  * Download the source code of this project, go to it's folder using the command line.
  * Run 'bundle install' to install all the project dependencies.
  * Run 'rake db:migrate' to create the database
@@ -38,12 +38,12 @@ helping you set up the system on a real server.
 
 ### Photo gallery
 
-![](http://dl.dropbox.com/u/2701879/uploads/rails-photo-organizer/photos.png)
+![photos](http://dl.dropbox.com/u/2701879/uploads/rails-photo-organizer/photos.png)
 
 ### Photo interface and tagging
 
-![](http://dl.dropbox.com/u/2701879/uploads/rails-photo-organizer/photo.png)
+![tagging](http://dl.dropbox.com/u/2701879/uploads/rails-photo-organizer/photo.png)
 
 ### Search by tags
 
-![](http://dl.dropbox.com/u/2701879/uploads/rails-photo-organizer/category.png)
+![search](http://dl.dropbox.com/u/2701879/uploads/rails-photo-organizer/category.png)
